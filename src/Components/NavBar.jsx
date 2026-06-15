@@ -11,7 +11,7 @@ import logo from '../assets/logo.png'
 
 const NavBar = () => {
   return (
-    <div className='pb-4 pt-10 border-b-1'>
+    <div className='pb-4 pt-10 border-b'>
       <Container>
         <div className='flex items-center justify-between'> 
           <img src={logo} alt="" />

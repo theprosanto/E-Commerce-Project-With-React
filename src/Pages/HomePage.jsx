@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import { MdArrowForwardIos } from "react-icons/md";
 import BannarAds from '../assets/BannerAds.png'
@@ -7,6 +9,13 @@ import BannarAds from '../assets/BannerAds.png'
 import Container from '../Components/Container'
 
 const HomePage = () => {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
     return (
         <div className=''>
             <Container>
@@ -33,7 +42,18 @@ const HomePage = () => {
                         </ul>
                     </div>
                     <div className='w-[80%] mt-12'>
-                        <img className='w-full' src={BannarAds} alt="" />
+                        <Slider {...settings}>
+                            <div>
+                                <img className='w-full' src={BannarAds} alt="" />
+                            </div>
+                            <div>
+                                <img className='w-full' src={BannarAds} alt="" />
+                            </div>
+                            <div>
+                                <img className='w-full' src={BannarAds} alt="" />
+                            </div>
+                        
+                        </Slider>
                     </div>
                 </div>
 
