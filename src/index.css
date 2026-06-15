@@ -16,3 +16,12 @@
 @utility container{
   @apply mx-auto;
 }
+
+.slick-dots .slick-active div {
+  border-radius: 50%;
+  outline: 3px solid white;
+  background-color: #DB4444;
+  width: 12px;
+  height: 12px;
+  
+}
