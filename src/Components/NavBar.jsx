@@ -3,11 +3,7 @@ import Container from './Container'
 import { IoIosSearch } from "react-icons/io";
 import { MdFavoriteBorder } from "react-icons/md";
 import { IoCartOutline } from "react-icons/io5";
-
-
-
-
-import logo from '../assets/logo.png'
+import logo from '../assets/Logo.png'
 
 const NavBar = () => {
   return (
