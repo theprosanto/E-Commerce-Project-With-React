@@ -3,11 +3,14 @@ import Slider from "react-slick";
 import Cards from '../Components/Cards';
 
 import GamingConsole from '../assets/GamingConsole.png'
+import WiredKeyboard from '../assets/WiredKeyboard.png'
+import GamingMonitor from '../assets/GamingMonitor.png'
+import Chair from '../assets/Chair.png'
 
 
 const FlashProducts = () => {
      const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -30,32 +33,32 @@ const FlashProducts = () => {
         </div>
         <div>
             <Cards
-            imgSrc={GamingConsole}
-            productTitle="HAVIT HV-G92 Gamepad"
-            productPrice="120"
-            productOriginalPrice="160"
-            productDiscount="42"
-            productSold="88">
+            imgSrc={WiredKeyboard}
+            productTitle="AK-900 Wired Keyboard"
+            productPrice="960"
+            productOriginalPrice="1160"
+            productDiscount="35"
+            productSold="75">
             </Cards> 
         </div>
         <div>
             <Cards
-            imgSrc={GamingConsole}
-            productTitle="HAVIT HV-G92 Gamepad"
-            productPrice="120"
-            productOriginalPrice="160"
+            imgSrc={GamingMonitor}
+            productTitle="Samsung 27-inch Gaming Monitor"
+            productPrice="370"
+            productOriginalPrice="400"
             productDiscount="42"
-            productSold="88">
+            productSold="30">
             </Cards> 
         </div>
         <div>
             <Cards
-            imgSrc={GamingConsole}
-            productTitle="HAVIT HV-G92 Gamepad"
-            productPrice="120"
-            productOriginalPrice="160"
-            productDiscount="42"
-            productSold="88">
+            imgSrc={Chair}
+            productTitle="S-Series Comfort Chair"
+            productPrice="375"
+            productOriginalPrice="400"
+            productDiscount="25"
+            productSold="99">
             </Cards> 
         </div>
         <div>
