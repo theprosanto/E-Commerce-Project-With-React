@@ -2,7 +2,11 @@ import { useState } from 'react'
 import './App.css'
 import HeaderTop from './Components/HeaderTop'
 import NavBar from './Components/NavBar'
-import HomePage from './Pages/HomePage'
+import HeroSection from './Pages/Home/HeroSection'
+import FlashCardsProducts from './Pages/Home/FlashCardsProducts'
+import BrowseCategorySection from './Pages/Home/BrowseCategorySection'
+import BestSellingProducts from './Pages/Home/BestSellingProducts'
+
 
 function App() {
 
@@ -10,7 +14,10 @@ function App() {
     <>
     <HeaderTop/>
     <NavBar/>
-    <HomePage/>
+    <HeroSection/>
+    <FlashCardsProducts/>
+    <BrowseCategorySection/>
+    <BestSellingProducts/>
     </>
   )
 }
