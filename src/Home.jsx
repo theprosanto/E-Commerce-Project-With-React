@@ -11,12 +11,10 @@ import OurProducts from './Pages/Home/OurProducts'
 import Featured from './Pages/Home/Featured'
 
 
-function App() {
+function Home() {
 
   return (
     <>
-    <HeaderTop/>
-    <NavBar/>
     <HeroSection/>
     <FlashCardsProducts/>
     <BrowseCategorySection/>
@@ -28,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

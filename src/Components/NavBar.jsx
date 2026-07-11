@@ -4,15 +4,18 @@ import { IoIosSearch } from "react-icons/io";
 import { MdFavoriteBorder } from "react-icons/md";
 import { IoCartOutline } from "react-icons/io5";
 import logo from '../assets/Logo.png'
+import { NavLink } from 'react-router';
 
 const NavBar = () => {
   return (
     <div className='pb-4 pt-10 border-b'>
       <Container>
         <div className='flex items-center justify-between'> 
-          <img src={logo} alt="" />
+          <NavLink to="/"><img src={logo} alt="" /></NavLink>
         <ul className='flex gap-12 items-center'>
-          <li>Home</li>
+          <li>
+          <NavLink to="/">Home</NavLink>
+          </li>
           <li>Contact</li>
           <li>About</li>
           <li>Sign Up</li>
