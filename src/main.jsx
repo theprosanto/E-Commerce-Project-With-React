@@ -7,6 +7,7 @@ import './index.css'
 import Home from './Home.jsx'
 import RootLayout from './Components/RootLayout.jsx';
 import Shop from './Pages/Shop/Shop.jsx';
+import loginPage from './Pages/Login/loginPage.jsx';
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, Component: Home },
       { path: "shop", Component: Shop },
+      { path: "login", Component: loginPage },
     ],
   },
 ]);

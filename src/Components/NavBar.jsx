@@ -18,13 +18,17 @@ const NavBar = () => {
           </li>
           <li>Contact</li>
           <li>About</li>
-          <li>Sign Up</li>
+          <li>Shop</li>
         </ul>
         <div className='flex gap-8.5 py-1.75 px-5 bg-[#e7e7e7] items-center'>
           <input type="search" placeholder='What are you looking for?' className='text-[16px] w-full text-[#7D8184] opacity-70'/>
           <IoIosSearch className='text-[34px]' />
         </div>
         <div className='flex gap-4 items-center'>
+        <div className='flex gap-4 items-center'>
+          <NavLink to="login"><a href="">Login</a></NavLink>
+          <a href="">SingUp</a>
+        </div>
           <MdFavoriteBorder className='text-[34px]' />
           <IoCartOutline className='text-[34px]'/>
         </div>
