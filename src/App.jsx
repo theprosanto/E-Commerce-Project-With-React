@@ -6,6 +6,9 @@ import HeroSection from './Pages/Home/HeroSection'
 import FlashCardsProducts from './Pages/Home/FlashCardsProducts'
 import BrowseCategorySection from './Pages/Home/BrowseCategorySection'
 import BestSellingProducts from './Pages/Home/BestSellingProducts'
+import MusicExperience from './Pages/Home/MusicExperience'
+import OurProducts from './Pages/Home/OurProducts'
+import Featured from './Pages/Home/Featured'
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
     <FlashCardsProducts/>
     <BrowseCategorySection/>
     <BestSellingProducts/>
+    <MusicExperience/>
+    <OurProducts/>
+    <Featured/>
     </>
   )
 }

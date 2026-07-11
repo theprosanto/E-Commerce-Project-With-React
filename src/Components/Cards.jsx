@@ -7,7 +7,7 @@ import { FiEye } from "react-icons/fi";
 
 const Cards = ({ imgSrc, productTitle, productPrice, productOriginalPrice, productDiscount, productSold }) => {
     return (
-        <div className='w-67.5 h-87 relative'>
+        <div className='relative'>
             <img src={imgSrc} alt="" />
             <h1 className='font-medium leading-8 mt-4'>{productTitle}</h1>
             <div className='flex gap-2 items-center py-2 font-semibold'>
@@ -41,7 +41,6 @@ const Cards = ({ imgSrc, productTitle, productPrice, productOriginalPrice, produ
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

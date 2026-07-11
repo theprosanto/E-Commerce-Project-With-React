@@ -14,6 +14,7 @@ import WiredKeyboard from '../../assets/WiredKeyboard.png'
 import GamingMonitor from '../../assets/GamingMonitor.png'
 import Chair from '../../assets/Chair.png'
 import CustomButton from '../../Components/CustomButton';
+import TimerCountDount from '../../Components/TimerCountDount';
 
 
 
@@ -38,28 +39,8 @@ const FlashCardsProducts = () => {
                                 <h1 className='font-semibold font-inter text-[36px]'>Flash Sales</h1>
                             </div>
 
+                            <TimerCountDount></TimerCountDount>
 
-                            <div className='flex gap-5 items-center mt-10 ml-21.75'>
-                                <div>
-                                    <p className='font-medium text-[12px]'>Days</p>
-                                    <h1 className='font-bold text-[32px] font-inter leading-7.5'>05</h1>
-                                </div>
-                                <div className='text-[#DB4444] font-bold text-3xl'>:</div>
-                                <div>
-                                    <p className='font-medium text-[12px]'>Hours</p>
-                                    <h1 className='font-bold text-[32px] font-inter leading-7.5'>12</h1>
-                                </div>
-                                <div className='text-[#DB4444] font-bold text-3xl'>:</div>
-                                <div>
-                                    <p className='font-medium text-[12px]'>Minutes</p>
-                                    <h1 className='font-bold text-[32px] font-inter leading-7.5'>30</h1>
-                                </div>
-                                <div className='text-[#DB4444] font-bold text-3xl'>:</div>
-                                <div>
-                                    <p className='font-medium text-[12px]'>Seconds</p>
-                                    <h1 className='font-bold text-[32px] font-inter leading-7.5'>45</h1>
-                                </div>
-                            </div>
                         </div>
 
                         <div className='flex gap-2 items-center mt-14'>

@@ -59,7 +59,7 @@ const HeroSection = () => {
                             <li>Health & Beauty</li>
                         </ul>
                     </div>
-                    <div className='w-[80%] mt-12'>
+                    <div className='w-223 mt-12'>
                         <Slider {...settings}>
                             <div>
                                 <img className='w-full' src={BannerAds} alt="" />
