@@ -8,6 +8,7 @@ import Home from './Home.jsx'
 import RootLayout from './Components/RootLayout.jsx';
 import Shop from './Pages/Shop/Shop.jsx';
 import loginPage from './Pages/Login/loginPage.jsx';
+import SingUp from './Pages/Register/SingUp.jsx';
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "shop", Component: Shop },
       { path: "login", Component: loginPage },
+      { path: "singup", Component: SingUp },
     ],
   },
 ]);

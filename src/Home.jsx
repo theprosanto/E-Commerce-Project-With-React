@@ -9,6 +9,7 @@ import BestSellingProducts from './Pages/Home/BestSellingProducts'
 import MusicExperience from './Pages/Home/MusicExperience'
 import OurProducts from './Pages/Home/OurProducts'
 import Featured from './Pages/Home/Featured'
+import Support from './Pages/Home/Support'
 
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
     <MusicExperience/>
     <OurProducts/>
     <Featured/>
+    <Support/>
     </>
   )
 }
