@@ -7,7 +7,7 @@ import MoneyBack from '../../assets/MoneyBack.png'
 
 const Support = () => {
   return (
-    <div>
+    <div className='my-35'>
 
         <Container>
             <div className='flex justify-between'>
