@@ -1,28 +1,26 @@
 import React from 'react'
 import Container from '../../Components/Container'
+import CustomButton from '../../Components/CustomButton';
 
 import loginImage from '../../assets/loginImage.png'
 
 const loginPage = () => {
   return (
-    <div className='mt-15 mb-35 flex'>
-      <img src={loginImage} alt="" />
+    <div className='mt-15 mb-35'>
       <Container>
-        <div>
-          <div>
-            <h1>Log in to Exclusive</h1>
-            <p>Enter your details below</p>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className=" placeholder-gray-400 focus:outline-none focus:border-red-500"
-            />
-<br />
-            <input
-              type="password"
-              placeholder="Enter your password"
-              className="placeholder-gray-400 focus:outline-none focus:border-red-500"
-            />
+        <div className='flex gap items-center'>
+          <img src={loginImage} alt="" className="-translate-x-43" />
+          <div className="">
+            <h1 className='font-semibold font-inter text-[36px]'>Log in to Exclusive</h1>
+            <p className='mt-5 mb-12'>Enter your details below</p>
+
+            <input type="email" placeholder='Email or Phone Number' className='border-b border-[#000000] w-94 h-8 text-gray-600' />
+            <input type="password" placeholder='Password' className='my-10 border-b border-[#000000] w-94 h-8 text-gray-600' />
+
+              <div className='flex gap-21 items-center'>
+                <CustomButton>Log In</CustomButton>
+                <a href="" className='text-[#DB4444]'>Forget Password?</a>
+              </div>
           </div>
         </div>
       </Container>
