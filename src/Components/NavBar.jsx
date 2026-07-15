@@ -31,7 +31,11 @@ const NavBar = () => {
           
         </div>
           <MdFavoriteBorder className='text-[34px]' />
-          <IoCartOutline className='text-[34px]'/>
+          <div className='relative cursor-pointer'>
+            <IoCartOutline className='text-[34px]'/>
+           <span className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-red-600 text-white text-xs flex items-center justify-center">
+                0</span>
+          </div>
         </div>
         </div>       
       </Container>
